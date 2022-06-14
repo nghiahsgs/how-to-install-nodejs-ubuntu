@@ -14,3 +14,10 @@ nvm install 14.4.0
 node --version
 npm --version
 ```
+
+
+## upgrade node js
+```
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
